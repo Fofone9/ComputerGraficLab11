@@ -40,7 +40,8 @@ void display(void)
 	for (auto& i : mapObjects)
 		for (auto& j : i)
 			if (j != nullptr) j->draw();
-
+	for (auto& decal : decals)
+		decal.draw();
 	// смена переднего и заднего буферов
 	glutSwapBuffers();
 };

@@ -1,7 +1,7 @@
 #pragma once
 #include <windows.h> //Required for RapidJSON
-
-#include "Mesh.h"
+#include "Material.h" 
+#include "Mesh.h" 
 #include "PhongMaterial.h"
 #include "PhongMaterialWithTexture.h"
 #include "GraphicObject.h"

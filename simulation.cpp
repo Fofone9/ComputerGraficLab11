@@ -183,7 +183,7 @@ void bombSimulation(double currentTime)
 	static LARGE_INTEGER placementTime;
 	static ivec2 bombPos;
 	static bool isBombSet = false;
-	if (player && !player->isMoving() && !isBombSet && (GetAsyncKeyState(VK_SPACE)) & 0x8000)
+	if (player  && !isBombSet && (GetAsyncKeyState(VK_SPACE)) & 0x8000)
 	{
 		isBombSet = true;
 		QueryPerformanceCounter(&placementTime);
