@@ -1,0 +1,12 @@
+﻿################################################################################
+# Данный GITIGNORE-файл был автоматически создан Microsoft(R) Visual Studio.
+################################################################################
+
+/.vs/ComputerGraficLab9/FileContentIndex
+/.vs/ComputerGraficLab9/v17
+/glew-2.1.0/doc
+/glm/doc
+/rapidjson-master/doc
+/.vs/ComputerGraficLab10/FileContentIndex
+/.vs/ComputerGraficLab10/v17
+/.vs/ComputerGraficLab11
